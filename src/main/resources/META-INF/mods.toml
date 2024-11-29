@@ -3,17 +3,18 @@ loaderVersion="[47,)"
 license="Not specified"
 
 [[mods]]
-modId="thornicorn"
+modId="strangeadditions"
 version="1.0.0"
-displayName="Thornicorn"
+displayName="Strange Additions"
 displayURL="https://mcreator.net"
-credits="Created using mod maker MCreator - https://mcreator.net/about"
-authors="matri, MCreator"
+credits="Made for the series Strange Horizons!"
+authors="Fl4Fold, FearaTheOne"
+description="Welcome to Strange Additions! Where all additions are... strange."
 
 # Start of user code block mod configuration
 # End of user code block mod configuration
 
-[[dependencies.thornicorn]]
+[[dependencies.strangeadditions]]
     modId="minecraft"
     mandatory=true
     versionRange="[1.20.1]"

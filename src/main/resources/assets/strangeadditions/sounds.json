@@ -1,0 +1,10 @@
+{
+  "joyride": {
+    "sounds": [
+      {
+        "name": "strangeadditions:joyride",
+        "stream": false
+      }
+    ]
+  }
+}

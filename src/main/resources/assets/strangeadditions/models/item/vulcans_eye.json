@@ -1,0 +1,20 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "strangeadditions:item/vulcanseyenew"
+  },
+  "overrides": [
+    {
+      "predicate": {
+        "strangeadditions:vulcans_eye_isinnether": 1
+      },
+      "model": "strangeadditions:item/vulcans_eye_0"
+    },
+    {
+      "predicate": {
+        "strangeadditions:vulcans_eye_isinend": 1
+      },
+      "model": "strangeadditions:item/vulcans_eye_1"
+    }
+  ]
+}
