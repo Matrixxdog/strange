@@ -1,0 +1,291 @@
+{
+  "mod_elements": [
+    {
+      "name": "VulcansEyePropertyValueProvider",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "vulcans_eye_property_value_provider",
+      "metadata": {
+        "files": [
+          "src/main/java/net/smp/thornicorn/procedures/VulcansEyePropertyValueProviderProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "return_type": "number"
+      }
+    },
+    {
+      "name": "VulcansEye",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "vulcans_eye",
+      "metadata": {
+        "files": [
+          "src/main/java/net/smp/thornicorn/item/VulcansEyeItem.java",
+          "src/main/resources/assets/thornicorn/models/item/vulcans_eye_0.json",
+          "src/main/resources/assets/thornicorn/models/item/vulcans_eye.json",
+          "src/main/resources/assets/thornicorn/models/item/vulcans_eye_1.json"
+        ]
+      }
+    },
+    {
+      "name": "Joyride",
+      "type": "musicdisc",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "joyride",
+      "metadata": {
+        "files": [
+          "src/main/java/net/smp/thornicorn/item/JoyrideItem.java",
+          "src/main/resources/assets/thornicorn/models/item/joyride.json"
+        ]
+      }
+    },
+    {
+      "name": "EverlastingFun",
+      "type": "painting",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "everlasting_fun",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "VulcansEyePropertyValueProvider2",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "vulcans_eye_property_value_provider_2",
+      "metadata": {
+        "return_type": "number",
+        "files": [
+          "src/main/java/net/smp/thornicorn/procedures/VulcansEyePropertyValueProvider2Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "VulcansEyeAbility1",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "vulcans_eye_ability_1",
+      "metadata": {
+        "files": [
+          "src/main/java/net/smp/thornicorn/procedures/VulcansEyeAbility1Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "VulcansEyeRightclickedOnBlock",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "vulcans_eye_rightclicked_on_block",
+      "metadata": {
+        "files": [
+          "src/main/java/net/smp/thornicorn/procedures/VulcansEyeRightclickedOnBlockProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "DieOrAndesite",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "die_or_andesite",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/thornicorn/advancements/die_or_andesite.json"
+        ]
+      }
+    },
+    {
+      "name": "BlastResistanceEffectStartedapplied",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blast_resistance_effect_startedapplied",
+      "metadata": {
+        "files": [
+          "src/main/java/net/smp/thornicorn/procedures/BlastResistanceEffectStartedappliedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "damagesource",
+            "type": "damagesource"
+          },
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "BlastResistance",
+      "type": "potioneffect",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blast_resistance",
+      "metadata": {
+        "files": [
+          "src/main/java/net/smp/thornicorn/potion/BlastResistanceMobEffect.java"
+        ]
+      }
+    },
+    {
+      "name": "BlastResistcancePotion",
+      "type": "potion",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blast_resistcance_potion",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "TestAttribute",
+      "type": "attribute",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "magmamize",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "VulcanTower",
+      "type": "structure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "vulcan_tower",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/thornicorn/worldgen/structure/vulcan_tower.json",
+          "src/main/resources/data/thornicorn/worldgen/structure_set/vulcan_tower.json",
+          "src/main/resources/data/thornicorn/worldgen/template_pool/vulcan_tower.json"
+        ]
+      }
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [
+    {
+      "name": "joyride",
+      "files": [
+        "joyride"
+      ],
+      "category": "neutral",
+      "subtitle": ""
+    }
+  ],
+  "tag_elements": {
+    "ITEMS:minecraft:music_discs": [
+      "~CUSTOM:Joyride"
+    ]
+  },
+  "tab_element_order": {},
+  "language_map": {
+    "en_us": {
+      "subtitles.joyride": "",
+      "attribute.thornicorn.magmamize": "Magmamize",
+      "item.thornicorn.joyride": "Joyride",
+      "effect.thornicorn.blast_resistance": "Blast Resistance",
+      "item.thornicorn.joyride.desc": "By DrWendigo",
+      "advancements.die_or_andesite.descr": "Turn a piece of Diorite into Andesite using ???.",
+      "painting.thornicorn.everlasting_fun.author": "Nominal Dingus",
+      "item.minecraft.lingering_potion.effect.blast_resistcance_potion": "Lingering Potion of Blast Resistcance",
+      "item.minecraft.tipped_arrow.effect.blast_resistcance_potion": "Arrow of Blast Resistcance",
+      "item.thornicorn.vulcans_eye": "???",
+      "advancements.die_or_andesite.title": "Die Or Andesite",
+      "item.minecraft.splash_potion.effect.blast_resistcance_potion": "Splash Potion of Blast Resistcance",
+      "painting.thornicorn.everlasting_fun.title": "Everlasting Fun",
+      "item.minecraft.potion.effect.blast_resistcance_potion": "Potion of Blast Resistcance"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "thornicorn",
+    "modName": "Thornicorn",
+    "version": "1.0.0",
+    "author": "matri, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Not specified",
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.20.1",
+    "modElementsPackage": "net.smp.thornicorn"
+  },
+  "mcreatorVersion": 202400342716
+}

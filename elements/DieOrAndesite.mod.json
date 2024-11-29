@@ -1,0 +1,25 @@
+{
+  "_fv": 69,
+  "_type": "achievement",
+  "definition": {
+    "achievementName": "Die Or Andesite",
+    "achievementDescription": "Turn a piece of Diorite into Andesite using ???.",
+    "achievementIcon": {
+      "value": "CUSTOM:VulcansEye"
+    },
+    "background": "Default",
+    "disableDisplay": false,
+    "showPopup": true,
+    "announceToChat": true,
+    "hideIfNotCompleted": true,
+    "rewardLoot": [],
+    "rewardRecipes": [],
+    "rewardFunction": "No function",
+    "rewardXP": 0,
+    "achievementType": "challenge",
+    "parent": {
+      "value": "No parent: root"
+    },
+    "triggerxml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"advancement_trigger\" deletable=\"false\" x=\"40\" y=\"80\"><next><block type=\"block_placed\"><value name=\"block\"><block type=\"mcitem_allblocks\"><field name=\"value\">Blocks.BUBBLE_COLUMN</field></block></value></block></next></block></xml>"
+  }
+}

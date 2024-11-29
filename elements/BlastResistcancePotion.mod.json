@@ -1,0 +1,21 @@
+{
+  "_fv": 69,
+  "_type": "potion",
+  "definition": {
+    "potionName": "Potion of Blast Resistcance",
+    "splashName": "Splash Potion of Blast Resistcance",
+    "lingeringName": "Lingering Potion of Blast Resistcance",
+    "arrowName": "Arrow of Blast Resistcance",
+    "effects": [
+      {
+        "effect": {
+          "value": "CUSTOM:BlastResistance"
+        },
+        "duration": 3600,
+        "amplifier": 0,
+        "ambient": false,
+        "showParticles": true
+      }
+    ]
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "_fv": 69,
+  "_type": "procedure",
+  "definition": {
+    "procedurexml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"event_trigger\" deletable=\"false\" x=\"199\" y=\"96\"><field name=\"trigger\">entity_attacked</field><next><block type=\"controls_if\"><value name=\"IF0\"><block type=\"logic_negate\"><value name=\"BOOL\"><block type=\"entity_haspotioneffect\"><field name=\"potion\">CUSTOM:BlastResistance</field><value name=\"entity\"><block type=\"entity_from_deps\"></block></value></block></value></block></value><statement name=\"DO0\"><block type=\"java_code\"><field name=\"CODE\">return;</field></block></statement><next><block type=\"controls_if\"><value name=\"IF0\"><block type=\"logic_negate\"><value name=\"BOOL\"><block type=\"logic_binary_ops\"><field name=\"OP\">OR</field><value name=\"A\"><block type=\"damagesource_isequalto\"><field name=\"damagetype\">EXPLOSION</field><value name=\"damagesource\"><block type=\"damagesource_from_deps\"></block></value></block></value><value name=\"B\"><block type=\"damagesource_isequalto\"><field name=\"damagetype\">PLAYER_EXPLOSION</field><value name=\"damagesource\"><block type=\"damagesource_from_deps\"></block></value></block></value></block></value></block></value><statement name=\"DO0\"><block type=\"java_code\"><field name=\"CODE\">return;</field></block></statement><next><block type=\"cancel_event\"></block></next></block></next></block></next></block></xml>"
+  }
+}

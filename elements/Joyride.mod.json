@@ -1,0 +1,22 @@
+{
+  "_fv": 69,
+  "_type": "musicdisc",
+  "definition": {
+    "name": "Joyride",
+    "rarity": "RARE",
+    "texture": "pixil-frame-0_4",
+    "description": "By DrWendigo",
+    "creativeTabs": [],
+    "specialInformation": {
+      "fixedValue": []
+    },
+    "glowCondition": {
+      "fixedValue": false
+    },
+    "music": {
+      "value": "CUSTOM:joyride"
+    },
+    "lengthInTicks": 1860,
+    "analogOutput": 0
+  }
+}
