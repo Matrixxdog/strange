@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "minecraft:block/cherry_leaves",
+    "up": "minecraft:block/cherry_leaves",
+    "north": "minecraft:block/cherry_leaves",
+    "east": "minecraft:block/cherry_leaves",
+    "south": "minecraft:block/cherry_leaves",
+    "west": "minecraft:block/cherry_leaves",
+    "particle": "minecraft:block/cherry_leaves"
+  },
+  "render_type": "solid"
+}

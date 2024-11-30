@@ -8,6 +8,8 @@ import net.smp.additions.procedures.VulcansEyePropertyValueProviderProcedure;
 import net.smp.additions.procedures.VulcansEyePropertyValueProvider2Procedure;
 import net.smp.additions.item.VulcansEyeItem;
 import net.smp.additions.item.JoyrideItem;
+import net.smp.additions.item.GardenersBlessingItem;
+import net.smp.additions.item.BlindnessPotionFlowItem;
 import net.smp.additions.StrangeadditionsMod;
 
 import net.minecraftforge.registries.RegistryObject;
@@ -18,7 +20,9 @@ import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
 import net.minecraftforge.api.distmarker.Dist;
 
+import net.minecraft.world.level.block.Block;
 import net.minecraft.world.item.Item;
+import net.minecraft.world.item.BlockItem;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.client.renderer.item.ItemProperties;
 
@@ -27,9 +31,16 @@ public class StrangeadditionsModItems {
 	public static final DeferredRegister<Item> REGISTRY = DeferredRegister.create(ForgeRegistries.ITEMS, StrangeadditionsMod.MODID);
 	public static final RegistryObject<Item> VULCANS_EYE = REGISTRY.register("vulcans_eye", () -> new VulcansEyeItem());
 	public static final RegistryObject<Item> JOYRIDE = REGISTRY.register("joyride", () -> new JoyrideItem());
+	public static final RegistryObject<Item> GARDENERS_BLESSING = REGISTRY.register("gardeners_blessing", () -> new GardenersBlessingItem());
+	public static final RegistryObject<Item> FLOWER_CRAFT = block(StrangeadditionsModBlocks.FLOWER_CRAFT);
+	public static final RegistryObject<Item> BLINDNESS_POTION_FLOW = REGISTRY.register("blindness_potion_flow", () -> new BlindnessPotionFlowItem());
 
 	// Start of user code block custom items
 	// End of user code block custom items
+	private static RegistryObject<Item> block(RegistryObject<Block> block) {
+		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties()));
+	}
+
 	@SubscribeEvent
 	public static void clientLoad(FMLClientSetupEvent event) {
 		event.enqueueWork(() -> {

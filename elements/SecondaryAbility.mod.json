@@ -1,0 +1,12 @@
+{
+  "_fv": 69,
+  "_type": "keybind",
+  "definition": {
+    "triggerKey": "R",
+    "keyBindingName": "Secondary Ability",
+    "keyBindingCategoryKey": "misc",
+    "onKeyPressed": {
+      "name": "SecondaryAbilityOnKeyPressed"
+    }
+  }
+}

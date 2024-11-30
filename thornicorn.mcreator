@@ -231,6 +231,225 @@
           "src/main/resources/data/strangeadditions/worldgen/structure/vulcan_tower.json"
         ]
       }
+    },
+    {
+      "name": "GardenersBlessing",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gardeners_blessing",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/strangeadditions/models/item/gardeners_blessing.json",
+          "src/main/java/net/smp/additions/item/GardenersBlessingItem.java"
+        ]
+      },
+      "path": "~/ZsBlessing"
+    },
+    {
+      "name": "GardenersBlessingRightclicked",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gardeners_blessing_rightclicked",
+      "metadata": {
+        "files": [
+          "src/main/java/net/smp/additions/procedures/GardenersBlessingRightclickedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/ZsBlessing"
+    },
+    {
+      "name": "GardenersBlessingItemInInventoryTick",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gardeners_blessing_item_in_inventory_tick",
+      "metadata": {
+        "files": [
+          "src/main/java/net/smp/additions/procedures/GardenersBlessingItemInInventoryTickProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/ZsBlessing"
+    },
+    {
+      "name": "FlowerCraft",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "flower_craft",
+      "metadata": {
+        "files": [
+          "src/main/java/net/smp/additions/block/entity/FlowerCraftBlockEntity.java",
+          "src/main/resources/assets/strangeadditions/models/block/flower_craft.json",
+          "src/main/resources/data/strangeadditions/loot_tables/blocks/flower_craft.json",
+          "src/main/resources/assets/strangeadditions/blockstates/flower_craft.json",
+          "src/main/java/net/smp/additions/block/FlowerCraftBlock.java",
+          "src/main/resources/assets/strangeadditions/models/item/flower_craft.json"
+        ]
+      },
+      "path": "~/ZsBlessing"
+    },
+    {
+      "name": "SecondaryAbilityOnKeyPressed",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "secondary_ability_on_key_pressed",
+      "metadata": {
+        "files": [
+          "src/main/java/net/smp/additions/procedures/SecondaryAbilityOnKeyPressedProcedure.java"
+        ],
+        "dependencies": []
+      },
+      "path": "~/ZsBlessing"
+    },
+    {
+      "name": "SecondaryAbility",
+      "type": "keybind",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "secondary_ability",
+      "metadata": {
+        "files": [
+          "src/main/java/net/smp/additions/network/SecondaryAbilityMessage.java"
+        ]
+      },
+      "path": "~/ZsBlessing"
+    },
+    {
+      "name": "FlowerCrafting",
+      "type": "gui",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "flower_crafting",
+      "metadata": {
+        "files": [
+          "src/main/java/net/smp/additions/network/FlowerCraftingSlotMessage.java",
+          "src/main/java/net/smp/additions/client/gui/FlowerCraftingScreen.java",
+          "src/main/java/net/smp/additions/world/inventory/FlowerCraftingMenu.java"
+        ]
+      },
+      "path": "~/ZsBlessing"
+    },
+    {
+      "name": "WhenItemTakenFromOutputSlot",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "when_item_taken_from_output_slot",
+      "metadata": {
+        "files": [
+          "src/main/java/net/smp/additions/procedures/WhenItemTakenFromOutputSlotProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/ZsBlessing"
+    },
+    {
+      "name": "FlowerCraftingWhileThisGUIIsOpenTick",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "flower_crafting_while_this_gui_is_open_tick",
+      "metadata": {
+        "files": [
+          "src/main/java/net/smp/additions/procedures/FlowerCraftingWhileThisGUIIsOpenTickProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/ZsBlessing"
+    },
+    {
+      "name": "BlindnessPotionCustom",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blindness_potion_custom",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/smp/additions/procedures/BlindnessPotionCustomProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/ZsBlessing/Recipes"
+    },
+    {
+      "name": "BlindnessPotionFlow",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blindness_potion_flow",
+      "metadata": {
+        "files": [
+          "src/main/java/net/smp/additions/item/BlindnessPotionFlowItem.java",
+          "src/main/resources/assets/strangeadditions/models/item/blindness_potion_flow.json"
+        ]
+      },
+      "path": "~/ZsBlessing"
+    },
+    {
+      "name": "BlindnessPotionFlowPlayerFinishesUsingItem",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blindness_potion_flow_player_finishes_using_item",
+      "metadata": {
+        "files": [
+          "src/main/java/net/smp/additions/procedures/BlindnessPotionFlowPlayerFinishesUsingItemProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/ZsBlessing"
     }
   ],
   "variable_elements": [],
@@ -253,31 +472,48 @@
   "language_map": {
     "en_us": {
       "subtitles.joyride": "",
-      "attribute.thornicorn.magmamize": "Magmamize",
-      "item.thornicorn.joyride": "Joyride",
-      "painting.strangeadditions.everlasting_fun.title": "Everlasting Fun",
       "painting.strangeadditions.everlasting_fun.author": "Nominal Dingus",
-      "effect.thornicorn.blast_resistance": "Blast Resistance",
       "item.thornicorn.joyride.desc": "By DrWendigo",
-      "advancements.die_or_andesite.descr": "Turn a piece of Diorite into Andesite using ???.",
-      "painting.thornicorn.everlasting_fun.author": "Nominal Dingus",
       "item.minecraft.lingering_potion.effect.blast_resistcance_potion": "Lingering Potion of Blast Resistcance",
-      "item.minecraft.tipped_arrow.effect.blast_resistcance_potion": "Arrow of Blast Resistcance",
       "item.thornicorn.vulcans_eye": "???",
-      "advancements.die_or_andesite.title": "Die Or Andesite",
       "attribute.strangeadditions.magmamize": "Magmamize",
       "item.strangeadditions.joyride.desc": "By DrWendigo",
+      "item.strangeadditions.joyride": "Joyride",
+      "gui.strangeadditions.flower_crafting.label_output": "Output",
+      "painting.thornicorn.everlasting_fun.title": "Everlasting Fun",
+      "item.strangeadditions.gardeners_blessing": "Gardener\u0027s Blessing",
+      "block.strangeadditions.flower_craft": "Flower Craft",
+      "item.minecraft.potion.effect.blast_resistcance_potion": "Potion of Blast Resistcance",
+      "attribute.thornicorn.magmamize": "Magmamize",
+      "painting.strangeadditions.everlasting_fun.title": "Everlasting Fun",
+      "item.thornicorn.joyride": "Joyride",
+      "effect.thornicorn.blast_resistance": "Blast Resistance",
+      "advancements.die_or_andesite.descr": "Turn a piece of Diorite into Andesite using ???.",
+      "painting.thornicorn.everlasting_fun.author": "Nominal Dingus",
+      "item.minecraft.tipped_arrow.effect.blast_resistcance_potion": "Arrow of Blast Resistcance",
+      "gui.strangeadditions.flower_crafting.label_flowers": "Flowers",
+      "key.strangeadditions.secondary_ability": "Secondary Ability",
+      "advancements.die_or_andesite.title": "Die Or Andesite",
+      "item.strangeadditions.blindness_potion_flow": "Blindness Potion (Herbal)",
       "item.strangeadditions.vulcans_eye": "???",
       "item.minecraft.splash_potion.effect.blast_resistcance_potion": "Splash Potion of Blast Resistcance",
-      "item.strangeadditions.joyride": "Joyride",
-      "painting.thornicorn.everlasting_fun.title": "Everlasting Fun",
-      "effect.strangeadditions.blast_resistance": "Blast Resistance",
-      "item.minecraft.potion.effect.blast_resistcance_potion": "Potion of Blast Resistcance"
+      "gui.strangeadditions.flower_crafting.label_water_bottle": "Water Bottle",
+      "effect.strangeadditions.blast_resistance": "Blast Resistance"
     }
   },
   "foldersRoot": {
     "name": "~",
-    "children": []
+    "children": [
+      {
+        "name": "ZsBlessing",
+        "children": [
+          {
+            "name": "Recipes",
+            "children": []
+          }
+        ]
+      }
+    ]
   },
   "workspaceSettings": {
     "modid": "strangeadditions",

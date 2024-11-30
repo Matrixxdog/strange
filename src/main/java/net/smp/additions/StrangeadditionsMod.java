@@ -8,7 +8,10 @@ import net.smp.additions.init.StrangeadditionsModSounds;
 import net.smp.additions.init.StrangeadditionsModPotions;
 import net.smp.additions.init.StrangeadditionsModPaintings;
 import net.smp.additions.init.StrangeadditionsModMobEffects;
+import net.smp.additions.init.StrangeadditionsModMenus;
 import net.smp.additions.init.StrangeadditionsModItems;
+import net.smp.additions.init.StrangeadditionsModBlocks;
+import net.smp.additions.init.StrangeadditionsModBlockEntities;
 import net.smp.additions.init.StrangeadditionsModAttributes;
 
 import net.minecraftforge.network.simple.SimpleChannel;
@@ -45,7 +48,8 @@ public class StrangeadditionsMod {
 		MinecraftForge.EVENT_BUS.register(this);
 		IEventBus bus = FMLJavaModLoadingContext.get().getModEventBus();
 		StrangeadditionsModSounds.REGISTRY.register(bus);
-
+		StrangeadditionsModBlocks.REGISTRY.register(bus);
+		StrangeadditionsModBlockEntities.REGISTRY.register(bus);
 		StrangeadditionsModItems.REGISTRY.register(bus);
 
 		StrangeadditionsModTabs.REGISTRY.register(bus);
@@ -54,6 +58,7 @@ public class StrangeadditionsMod {
 		StrangeadditionsModPotions.REGISTRY.register(bus);
 		StrangeadditionsModPaintings.REGISTRY.register(bus);
 
+		StrangeadditionsModMenus.REGISTRY.register(bus);
 		StrangeadditionsModAttributes.REGISTRY.register(bus);
 		// Start of user code block mod init
 		// End of user code block mod init
