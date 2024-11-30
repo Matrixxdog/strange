@@ -21,11 +21,7 @@ public class StrangeadditionsModTabs {
 
 	@SubscribeEvent
 	public static void buildTabContentsVanilla(BuildCreativeModeTabContentsEvent tabData) {
-		if (tabData.getTabKey() == CreativeModeTabs.FUNCTIONAL_BLOCKS) {
-
-			tabData.accept(StrangeadditionsModBlocks.FLOWER_CRAFT.get().asItem());
-
-		} else if (tabData.getTabKey() == CreativeModeTabs.TOOLS_AND_UTILITIES) {
+		if (tabData.getTabKey() == CreativeModeTabs.TOOLS_AND_UTILITIES) {
 
 			tabData.accept(StrangeadditionsModItems.VULCANS_EYE.get());
 			tabData.accept(StrangeadditionsModItems.GARDENERS_BLESSING.get());
@@ -33,6 +29,7 @@ public class StrangeadditionsModTabs {
 		} else if (tabData.getTabKey() == CreativeModeTabs.FOOD_AND_DRINKS) {
 
 			tabData.accept(StrangeadditionsModItems.BLINDNESS_POTION_FLOW.get());
+			tabData.accept(StrangeadditionsModItems.FIRE_RESISTANCE_POTION_FLOW.get());
 
 		}
 	}

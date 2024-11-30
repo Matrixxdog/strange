@@ -69,7 +69,7 @@
         "data": {
           "name": "label_water_bottle",
           "text": {
-            "fixedValue": "Water Bottle"
+            "fixedValue": "Glass Bottle"
           },
           "color": {
             "value": -16777216,

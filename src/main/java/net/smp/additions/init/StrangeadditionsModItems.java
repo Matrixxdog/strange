@@ -9,6 +9,7 @@ import net.smp.additions.procedures.VulcansEyePropertyValueProvider2Procedure;
 import net.smp.additions.item.VulcansEyeItem;
 import net.smp.additions.item.JoyrideItem;
 import net.smp.additions.item.GardenersBlessingItem;
+import net.smp.additions.item.FireResistancePotionFlowItem;
 import net.smp.additions.item.BlindnessPotionFlowItem;
 import net.smp.additions.StrangeadditionsMod;
 
@@ -34,6 +35,7 @@ public class StrangeadditionsModItems {
 	public static final RegistryObject<Item> GARDENERS_BLESSING = REGISTRY.register("gardeners_blessing", () -> new GardenersBlessingItem());
 	public static final RegistryObject<Item> FLOWER_CRAFT = block(StrangeadditionsModBlocks.FLOWER_CRAFT);
 	public static final RegistryObject<Item> BLINDNESS_POTION_FLOW = REGISTRY.register("blindness_potion_flow", () -> new BlindnessPotionFlowItem());
+	public static final RegistryObject<Item> FIRE_RESISTANCE_POTION_FLOW = REGISTRY.register("fire_resistance_potion_flow", () -> new FireResistancePotionFlowItem());
 
 	// Start of user code block custom items
 	// End of user code block custom items

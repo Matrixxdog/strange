@@ -12,6 +12,7 @@
   "item.strangeadditions.gardeners_blessing": "Gardener\u0027s Blessing",
   "block.strangeadditions.flower_craft": "Flower Craft",
   "item.minecraft.potion.effect.blast_resistcance_potion": "Potion of Blast Resistcance",
+  "item.strangeadditions.fire_resistance_potion_flow": "Blindness Potion (Herbal)",
   "attribute.thornicorn.magmamize": "Magmamize",
   "painting.strangeadditions.everlasting_fun.title": "Everlasting Fun",
   "item.thornicorn.joyride": "Joyride",
@@ -25,6 +26,6 @@
   "item.strangeadditions.blindness_potion_flow": "Blindness Potion (Herbal)",
   "item.strangeadditions.vulcans_eye": "???",
   "item.minecraft.splash_potion.effect.blast_resistcance_potion": "Splash Potion of Blast Resistcance",
-  "gui.strangeadditions.flower_crafting.label_water_bottle": "Water Bottle",
+  "gui.strangeadditions.flower_crafting.label_water_bottle": "Glass Bottle",
   "effect.strangeadditions.blast_resistance": "Blast Resistance"
 }

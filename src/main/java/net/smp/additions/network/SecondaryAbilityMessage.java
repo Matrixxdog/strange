@@ -52,7 +52,7 @@ public class SecondaryAbilityMessage {
 			return;
 		if (type == 0) {
 
-			SecondaryAbilityOnKeyPressedProcedure.execute();
+			SecondaryAbilityOnKeyPressedProcedure.execute(world, x, y, z, entity);
 		}
 	}
 

@@ -328,7 +328,28 @@
         "files": [
           "src/main/java/net/smp/additions/procedures/SecondaryAbilityOnKeyPressedProcedure.java"
         ],
-        "dependencies": []
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
       },
       "path": "~/ZsBlessing"
     },
@@ -430,7 +451,7 @@
           "src/main/resources/assets/strangeadditions/models/item/blindness_potion_flow.json"
         ]
       },
-      "path": "~/ZsBlessing"
+      "path": "~/ZsBlessing/Potions/Vanilla"
     },
     {
       "name": "BlindnessPotionFlowPlayerFinishesUsingItem",
@@ -449,7 +470,60 @@
           }
         ]
       },
-      "path": "~/ZsBlessing"
+      "path": "~/ZsBlessing/Potions/Vanilla/Procedures"
+    },
+    {
+      "name": "FireResistancePotionCustom",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fire_resistance_potion_custom",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/smp/additions/procedures/FireResistancePotionCustomProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/ZsBlessing/Recipes"
+    },
+    {
+      "name": "FireResistancePotionFlow",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fire_resistance_potion_flow",
+      "metadata": {
+        "files": [
+          "src/main/java/net/smp/additions/item/FireResistancePotionFlowItem.java",
+          "src/main/resources/assets/strangeadditions/models/item/fire_resistance_potion_flow.json"
+        ]
+      },
+      "path": "~/ZsBlessing/Potions/Vanilla"
+    },
+    {
+      "name": "FireResistancePotionFlowPlayerFinishesUsingItem",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fire_resistance_potion_flow_player_finishes_using_item",
+      "metadata": {
+        "files": [
+          "src/main/java/net/smp/additions/procedures/FireResistancePotionFlowPlayerFinishesUsingItemProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/ZsBlessing/Potions/Vanilla/Procedures"
     }
   ],
   "variable_elements": [],
@@ -484,6 +558,7 @@
       "item.strangeadditions.gardeners_blessing": "Gardener\u0027s Blessing",
       "block.strangeadditions.flower_craft": "Flower Craft",
       "item.minecraft.potion.effect.blast_resistcance_potion": "Potion of Blast Resistcance",
+      "item.strangeadditions.fire_resistance_potion_flow": "Blindness Potion (Herbal)",
       "attribute.thornicorn.magmamize": "Magmamize",
       "painting.strangeadditions.everlasting_fun.title": "Everlasting Fun",
       "item.thornicorn.joyride": "Joyride",
@@ -497,7 +572,7 @@
       "item.strangeadditions.blindness_potion_flow": "Blindness Potion (Herbal)",
       "item.strangeadditions.vulcans_eye": "???",
       "item.minecraft.splash_potion.effect.blast_resistcance_potion": "Splash Potion of Blast Resistcance",
-      "gui.strangeadditions.flower_crafting.label_water_bottle": "Water Bottle",
+      "gui.strangeadditions.flower_crafting.label_water_bottle": "Glass Bottle",
       "effect.strangeadditions.blast_resistance": "Blast Resistance"
     }
   },
@@ -510,6 +585,20 @@
           {
             "name": "Recipes",
             "children": []
+          },
+          {
+            "name": "Potions",
+            "children": [
+              {
+                "name": "Vanilla",
+                "children": [
+                  {
+                    "name": "Procedures",
+                    "children": []
+                  }
+                ]
+              }
+            ]
           }
         ]
       }
