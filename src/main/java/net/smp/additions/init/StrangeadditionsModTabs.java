@@ -30,6 +30,11 @@ public class StrangeadditionsModTabs {
 
 			tabData.accept(StrangeadditionsModItems.BLINDNESS_POTION_FLOW.get());
 			tabData.accept(StrangeadditionsModItems.FIRE_RESISTANCE_POTION_FLOW.get());
+			tabData.accept(StrangeadditionsModItems.SATURATION_POTION_FLOW.get());
+			tabData.accept(StrangeadditionsModItems.JUMP_BOOST_POTION_FLOW.get());
+			tabData.accept(StrangeadditionsModItems.POISON_POTION_FLOW.get());
+			tabData.accept(StrangeadditionsModItems.REGENERATION_POTION_FLOW.get());
+			tabData.accept(StrangeadditionsModItems.NIGHT_VISION_POTION_FLOW.get());
 
 		}
 	}

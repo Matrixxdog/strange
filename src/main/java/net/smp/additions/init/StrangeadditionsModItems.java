@@ -7,6 +7,11 @@ package net.smp.additions.init;
 import net.smp.additions.procedures.VulcansEyePropertyValueProviderProcedure;
 import net.smp.additions.procedures.VulcansEyePropertyValueProvider2Procedure;
 import net.smp.additions.item.VulcansEyeItem;
+import net.smp.additions.item.SaturationPotionFlowItem;
+import net.smp.additions.item.RegenerationPotionFlowItem;
+import net.smp.additions.item.PoisonPotionFlowItem;
+import net.smp.additions.item.NightVisionPotionFlowItem;
+import net.smp.additions.item.JumpBoostPotionFlowItem;
 import net.smp.additions.item.JoyrideItem;
 import net.smp.additions.item.GardenersBlessingItem;
 import net.smp.additions.item.FireResistancePotionFlowItem;
@@ -36,6 +41,11 @@ public class StrangeadditionsModItems {
 	public static final RegistryObject<Item> FLOWER_CRAFT = block(StrangeadditionsModBlocks.FLOWER_CRAFT);
 	public static final RegistryObject<Item> BLINDNESS_POTION_FLOW = REGISTRY.register("blindness_potion_flow", () -> new BlindnessPotionFlowItem());
 	public static final RegistryObject<Item> FIRE_RESISTANCE_POTION_FLOW = REGISTRY.register("fire_resistance_potion_flow", () -> new FireResistancePotionFlowItem());
+	public static final RegistryObject<Item> SATURATION_POTION_FLOW = REGISTRY.register("saturation_potion_flow", () -> new SaturationPotionFlowItem());
+	public static final RegistryObject<Item> JUMP_BOOST_POTION_FLOW = REGISTRY.register("jump_boost_potion_flow", () -> new JumpBoostPotionFlowItem());
+	public static final RegistryObject<Item> POISON_POTION_FLOW = REGISTRY.register("poison_potion_flow", () -> new PoisonPotionFlowItem());
+	public static final RegistryObject<Item> REGENERATION_POTION_FLOW = REGISTRY.register("regeneration_potion_flow", () -> new RegenerationPotionFlowItem());
+	public static final RegistryObject<Item> NIGHT_VISION_POTION_FLOW = REGISTRY.register("night_vision_potion_flow", () -> new NightVisionPotionFlowItem());
 
 	// Start of user code block custom items
 	// End of user code block custom items

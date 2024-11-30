@@ -437,7 +437,7 @@
           }
         ]
       },
-      "path": "~/ZsBlessing/Recipes"
+      "path": "~/ZsBlessing/Potions/Vanilla/Procedures/Recipes"
     },
     {
       "name": "BlindnessPotionFlow",
@@ -470,7 +470,7 @@
           }
         ]
       },
-      "path": "~/ZsBlessing/Potions/Vanilla/Procedures"
+      "path": "~/ZsBlessing/Potions/Vanilla/Procedures/Effects"
     },
     {
       "name": "FireResistancePotionCustom",
@@ -490,7 +490,7 @@
           }
         ]
       },
-      "path": "~/ZsBlessing/Recipes"
+      "path": "~/ZsBlessing/Potions/Vanilla/Procedures/Recipes"
     },
     {
       "name": "FireResistancePotionFlow",
@@ -523,7 +523,272 @@
           }
         ]
       },
-      "path": "~/ZsBlessing/Potions/Vanilla/Procedures"
+      "path": "~/ZsBlessing/Potions/Vanilla/Procedures/Effects"
+    },
+    {
+      "name": "SaturationPotionFlow",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "saturation_potion_flow",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/strangeadditions/models/item/saturation_potion_flow.json",
+          "src/main/java/net/smp/additions/item/SaturationPotionFlowItem.java"
+        ]
+      },
+      "path": "~/ZsBlessing/Potions/Vanilla"
+    },
+    {
+      "name": "SaturationPotionFlowPlayerFinishesUsingItem",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "saturation_potion_flow_player_finishes_using_item",
+      "metadata": {
+        "files": [
+          "src/main/java/net/smp/additions/procedures/SaturationPotionFlowPlayerFinishesUsingItemProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/ZsBlessing/Potions/Vanilla/Procedures/Effects"
+    },
+    {
+      "name": "SaturationPotionCustom",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "saturation_potion_custom",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/smp/additions/procedures/SaturationPotionCustomProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/ZsBlessing/Potions/Vanilla/Procedures/Recipes"
+    },
+    {
+      "name": "JumpBoostPotionFlowPlayerFinishesUsingItem",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "jump_boost_potion_flow_player_finishes_using_item",
+      "metadata": {
+        "files": [
+          "src/main/java/net/smp/additions/procedures/JumpBoostPotionFlowPlayerFinishesUsingItemProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/ZsBlessing/Potions/Vanilla/Procedures/Effects"
+    },
+    {
+      "name": "JumpBoostPotionCustom",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "jump_boost_potion_custom",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/smp/additions/procedures/JumpBoostPotionCustomProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/ZsBlessing/Potions/Vanilla/Procedures/Recipes"
+    },
+    {
+      "name": "JumpBoostPotionFlow",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "jump_boost_potion_flow",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/strangeadditions/models/item/jump_boost_potion_flow.json",
+          "src/main/java/net/smp/additions/item/JumpBoostPotionFlowItem.java"
+        ]
+      },
+      "path": "~/ZsBlessing/Potions/Vanilla"
+    },
+    {
+      "name": "PoisonPotionFlow",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "poison_potion_flow",
+      "metadata": {
+        "files": [
+          "src/main/java/net/smp/additions/item/PoisonPotionFlowItem.java",
+          "src/main/resources/assets/strangeadditions/models/item/poison_potion_flow.json"
+        ]
+      },
+      "path": "~/ZsBlessing/Potions/Vanilla"
+    },
+    {
+      "name": "PoisonPotionFlowPlayerFinishesUsingItem",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "poison_potion_flow_player_finishes_using_item",
+      "metadata": {
+        "files": [
+          "src/main/java/net/smp/additions/procedures/PoisonPotionFlowPlayerFinishesUsingItemProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/ZsBlessing/Potions/Vanilla/Procedures/Effects"
+    },
+    {
+      "name": "PoisonPotionCustom",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "poison_potion_custom",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/smp/additions/procedures/PoisonPotionCustomProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/ZsBlessing/Potions/Vanilla/Procedures/Recipes"
+    },
+    {
+      "name": "RegenerationPotionFlow",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "regeneration_potion_flow",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/strangeadditions/models/item/regeneration_potion_flow.json",
+          "src/main/java/net/smp/additions/item/RegenerationPotionFlowItem.java"
+        ]
+      },
+      "path": "~/ZsBlessing/Potions/Vanilla"
+    },
+    {
+      "name": "RegenerationPotionCustom",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "regeneration_potion_custom",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/smp/additions/procedures/RegenerationPotionCustomProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/ZsBlessing/Potions/Vanilla/Procedures/Recipes"
+    },
+    {
+      "name": "RegenerationPotionFlowPlayerFinishesUsingItem",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "regeneration_potion_flow_player_finishes_using_item",
+      "metadata": {
+        "files": [
+          "src/main/java/net/smp/additions/procedures/RegenerationPotionFlowPlayerFinishesUsingItemProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/ZsBlessing/Potions/Vanilla/Procedures/Effects"
+    },
+    {
+      "name": "NightVisionPotionFlowPlayerFinishesUsingItem",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "night_vision_potion_flow_player_finishes_using_item",
+      "metadata": {
+        "files": [
+          "src/main/java/net/smp/additions/procedures/NightVisionPotionFlowPlayerFinishesUsingItemProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/ZsBlessing/Potions/Vanilla/Procedures/Effects"
+    },
+    {
+      "name": "NightVisionPotionCustom",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "night_vision_potion_custom",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/smp/additions/procedures/NightVisionPotionCustomProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/ZsBlessing/Potions/Vanilla/Procedures/Recipes"
+    },
+    {
+      "name": "NightVisionPotionFlow",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "night_vision_potion_flow",
+      "metadata": {
+        "files": [
+          "src/main/java/net/smp/additions/item/NightVisionPotionFlowItem.java",
+          "src/main/resources/assets/strangeadditions/models/item/night_vision_potion_flow.json"
+        ]
+      },
+      "path": "~/ZsBlessing/Potions/Vanilla"
     }
   ],
   "variable_elements": [],
@@ -546,11 +811,13 @@
   "language_map": {
     "en_us": {
       "subtitles.joyride": "",
+      "item.strangeadditions.regeneration_potion_flow": "Regeneration Potion (Herbal)",
       "painting.strangeadditions.everlasting_fun.author": "Nominal Dingus",
       "item.thornicorn.joyride.desc": "By DrWendigo",
       "item.minecraft.lingering_potion.effect.blast_resistcance_potion": "Lingering Potion of Blast Resistcance",
       "item.thornicorn.vulcans_eye": "???",
       "attribute.strangeadditions.magmamize": "Magmamize",
+      "item.strangeadditions.saturation_potion_flow": "Saturation Potion (Herbal)",
       "item.strangeadditions.joyride.desc": "By DrWendigo",
       "item.strangeadditions.joyride": "Joyride",
       "gui.strangeadditions.flower_crafting.label_output": "Output",
@@ -558,7 +825,7 @@
       "item.strangeadditions.gardeners_blessing": "Gardener\u0027s Blessing",
       "block.strangeadditions.flower_craft": "Flower Craft",
       "item.minecraft.potion.effect.blast_resistcance_potion": "Potion of Blast Resistcance",
-      "item.strangeadditions.fire_resistance_potion_flow": "Blindness Potion (Herbal)",
+      "item.strangeadditions.fire_resistance_potion_flow": "Fire Resistance Potion (Herbal)",
       "attribute.thornicorn.magmamize": "Magmamize",
       "painting.strangeadditions.everlasting_fun.title": "Everlasting Fun",
       "item.thornicorn.joyride": "Joyride",
@@ -573,6 +840,9 @@
       "item.strangeadditions.vulcans_eye": "???",
       "item.minecraft.splash_potion.effect.blast_resistcance_potion": "Splash Potion of Blast Resistcance",
       "gui.strangeadditions.flower_crafting.label_water_bottle": "Glass Bottle",
+      "item.strangeadditions.night_vision_potion_flow": "Night Vision Potion (Herbal)",
+      "item.strangeadditions.poison_potion_flow": "Poison Potion (Herbal)",
+      "item.strangeadditions.jump_boost_potion_flow": "Jump Boost Potion (Herbal)",
       "effect.strangeadditions.blast_resistance": "Blast Resistance"
     }
   },
@@ -583,10 +853,6 @@
         "name": "ZsBlessing",
         "children": [
           {
-            "name": "Recipes",
-            "children": []
-          },
-          {
             "name": "Potions",
             "children": [
               {
@@ -594,7 +860,16 @@
                 "children": [
                   {
                     "name": "Procedures",
-                    "children": []
+                    "children": [
+                      {
+                        "name": "Recipes",
+                        "children": []
+                      },
+                      {
+                        "name": "Effects",
+                        "children": []
+                      }
+                    ]
                   }
                 ]
               }

@@ -1,10 +1,12 @@
 {
   "subtitles.joyride": "",
+  "item.strangeadditions.regeneration_potion_flow": "Regeneration Potion (Herbal)",
   "painting.strangeadditions.everlasting_fun.author": "Nominal Dingus",
   "item.thornicorn.joyride.desc": "By DrWendigo",
   "item.minecraft.lingering_potion.effect.blast_resistcance_potion": "Lingering Potion of Blast Resistcance",
   "item.thornicorn.vulcans_eye": "???",
   "attribute.strangeadditions.magmamize": "Magmamize",
+  "item.strangeadditions.saturation_potion_flow": "Saturation Potion (Herbal)",
   "item.strangeadditions.joyride.desc": "By DrWendigo",
   "item.strangeadditions.joyride": "Joyride",
   "gui.strangeadditions.flower_crafting.label_output": "Output",
@@ -12,7 +14,7 @@
   "item.strangeadditions.gardeners_blessing": "Gardener\u0027s Blessing",
   "block.strangeadditions.flower_craft": "Flower Craft",
   "item.minecraft.potion.effect.blast_resistcance_potion": "Potion of Blast Resistcance",
-  "item.strangeadditions.fire_resistance_potion_flow": "Blindness Potion (Herbal)",
+  "item.strangeadditions.fire_resistance_potion_flow": "Fire Resistance Potion (Herbal)",
   "attribute.thornicorn.magmamize": "Magmamize",
   "painting.strangeadditions.everlasting_fun.title": "Everlasting Fun",
   "item.thornicorn.joyride": "Joyride",
@@ -27,5 +29,8 @@
   "item.strangeadditions.vulcans_eye": "???",
   "item.minecraft.splash_potion.effect.blast_resistcance_potion": "Splash Potion of Blast Resistcance",
   "gui.strangeadditions.flower_crafting.label_water_bottle": "Glass Bottle",
+  "item.strangeadditions.night_vision_potion_flow": "Night Vision Potion (Herbal)",
+  "item.strangeadditions.poison_potion_flow": "Poison Potion (Herbal)",
+  "item.strangeadditions.jump_boost_potion_flow": "Jump Boost Potion (Herbal)",
   "effect.strangeadditions.blast_resistance": "Blast Resistance"
 }

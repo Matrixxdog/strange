@@ -7,7 +7,7 @@
     "customModelName": "Normal",
     "customProperties": {},
     "states": [],
-    "name": "Fire Resistance Potion (Herbal)",
+    "name": "Night Vision Potion (Herbal)",
     "rarity": "COMMON",
     "creativeTabs": [
       {
@@ -38,7 +38,7 @@
     "inventorySize": 9,
     "inventoryStackSize": 64,
     "onFinishUsingItem": {
-      "name": "FireResistancePotionFlowPlayerFinishesUsingItem"
+      "name": "NightVisionPotionFlowPlayerFinishesUsingItem"
     },
     "enableRanged": false,
     "shootConstantly": false,
